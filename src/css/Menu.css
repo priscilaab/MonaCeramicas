@@ -1,0 +1,29 @@
+.logo {
+    width: 15%;
+    height: auto;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
+  
+  }
+   .logoContato {
+    width: 60%;
+    height: auto;
+
+    margin-top: 30px;
+    margin-left:30px;
+   }
+
+/* color verde rgb(48,76,25) amarelo rgb(216,184,49) azul rgb(1,178,170) vermelho rgb(206,60,11) */
+   .custom-link {
+    color: rgb(206,60,11) ; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    text-decoration: none; 
+}
+
+.custom-link:hover {
+    background-color: rgb(1,178,170); 
+}
+/* const [paginaContato, mudaPagina] = useState(false);*/

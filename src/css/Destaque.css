@@ -1,0 +1,13 @@
+.destaque-container {
+    margin-top: 20px;
+  }
+  
+  .destaque-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .legenda {
+    text-align: center;
+    margin-top: 10px;
+  }

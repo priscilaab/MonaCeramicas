@@ -1,0 +1,19 @@
+
+
+.carousel-container {
+    max-width: 100%;
+    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
