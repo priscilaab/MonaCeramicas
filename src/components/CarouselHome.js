@@ -14,21 +14,21 @@ import conjunto from '../images/conjuntomarrom2.png';
 
 const items = [
     {
-        src: mesa ,
+        src: {mesa} ,
         altText: 'mesa',
-        caption: 'mesa',
+        caption: '',
         key: 1,
     },
     {
         src: {uva},
         altText: 'uva',
-        caption: 'uva',
+        caption: '',
         key: 2,
     },
     {
         src: {conjunto},
         altText: 'conjunto',
-        caption: 'conjunto',
+        caption: '',
         key: 3,
     },
 ];

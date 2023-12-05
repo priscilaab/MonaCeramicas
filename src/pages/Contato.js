@@ -1,7 +1,7 @@
 import { Col, Row, Button } from "reactstrap";
 import ItemForm from "../components/ItemForm";
 import React from 'react';
-import '..css/Contato.css';
+import '../css/Contato.css';
 
 
 

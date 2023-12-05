@@ -1,5 +1,4 @@
 import './App.css';
-import '../css/Footer.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'reactstrap';
 import Menu from './components/Menu';
@@ -10,7 +9,7 @@ import MoniqueAndrade from './pages/MoniqueAndrade';
 import Ceramica from './pages/Ceramica';
 import Evento from './pages/Evento';
 import Loja from './pages/Loja';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 
 function App() {

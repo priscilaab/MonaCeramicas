@@ -2,12 +2,27 @@ import React, { useState, useEffect } from 'react';
 import { Row, Col } from 'reactstrap';
 import Album from '../components/Album';
 import Destaque from '../components/Destaque';
-import imagemCeramica1 from '../images/imagem_ceramica1.jpg';
+import molheirafolha from '../images/molheirafolha.png';
+import conjuntomarrom from '../images/conjuntomarrom.png';
+import cumbucabranca from '../images/cumbucabrancafrente.png';
+import cumbucadentro from '../images/cumbucadentro.png';
+import cumbucapreta from '../images/cumbucapreta.png';
+import cumbucaverde from '../images/cumbucaverde.png';
+import cumbucapretamarromflor from '../images/cumbucapretamarromflor.png';
+
+
 
 function Ceramica() {
   const [fotos] = useState([
-    { src: imagemCeramica1, alt: 'Foto 1', titulo: 'Título 1', legenda: 'Legenda 1' },
-    { src: 'url_da_foto2.jpg', alt: 'Foto 2', titulo: 'Título 2', legenda: 'Legenda 2' },
+    { src: molheirafolha, alt: 'Molheira Folha', titulo: 'Molheira Folha', legenda: '300Ml, ⌀ 4,5cm'},
+    { src: conjuntomarrom, alt: 'Conjunto Marrom', titulo: 'Conjunto Marrom', legenda: '400ml, ⌀ 5,6cm' },
+    { src: cumbucabranca, alt: 'Cumbuca Branca', titulo: 'Cumbuca Branca', legenda: '500ml, ⌀ 10cm' },
+    { src: cumbucadentro, alt: 'Cumbuca Dentro', titulo: 'Cumbuca Dentro', legenda: '700ml, ⌀ 15cm ' },
+    { src: cumbucapreta, alt: 'Cumbuca Preta', titulo: 'Cumbuca Preta', legenda: '600ml, ⌀ 18cm' },
+    { src: cumbucaverde, alt: 'Cumbuca Verde', titulo: 'Cumbuca Verde', legenda: '200ml ⌀ 20cm' },
+
+
+
     // Adicione mais fotos conforme necessário
   ]);
 
@@ -24,13 +39,13 @@ function Ceramica() {
 
   return (
     <Row>
-      <Col xs="6">
+      <Col>
         {/* Álbum (coluna central) */}
         <Row className="album-container">
           <Album fotos={fotos} onFotoClick={handleFotoClick} />
         </Row>
       </Col>
-      <Col xs="4">
+      <Col>
         {/* Visualização em destaque (coluna à direita) */}
         {fotoDestaque && <Destaque foto={fotoDestaque} />}
       </Col>

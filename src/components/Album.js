@@ -4,7 +4,7 @@ import '../css/Album.css';
 
 function Album({ fotos, onFotoClick }) {
   return (
-    <Col xs="4">
+    <Col xs="2">
       {fotos.map((foto, index) => (
         <Foto
           key={index}

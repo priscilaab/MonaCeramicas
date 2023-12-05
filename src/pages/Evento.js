@@ -1,22 +1,28 @@
 import React from 'react';
+import '../css/Evento.css';
 import { Container, Row, Col } from 'reactstrap';
-import { format } from 'date-fns'; // Importe a função 'format' do date-fns: npm install date-fns
-import ItemEventos from "../components/ItemEventos";
-import imagemEvento1 from '../images/imagem_evento1.jpg';
+import { format } from 'date-fns'; // Importar a função 'format' do date-fns: npm install date-fns
+import ItemEventos from "../components/ItemEvento";
+import evento from '../images/evento.png';
+import embreve from '../images/embreve.png';
+
+
 
 function Eventos() {
   const eventos = [
     {
-      titulo: 'Evento 1',
+      titulo: '1° Feira Vegana -Vivenda Vos',
       data: '2023-03-15', // Use o formato 'YYYY-MM-DD' para datas
-      descricao: 'Descrição do Evento 1',
-      imagem:  imagemEvento1,
+      descricao: 'Horário: 09h às 19h  Local:Avenida General Gabriel da Fonseca  Número:369A - Tremembé',
+       link:'',
+      imagem: evento,
     },
     {
-      titulo: 'Evento 2',
-      data: '2023-03-10',
-      descricao: 'Descrição do Evento 2',
-      imagem: 'https://picsum.photos/id/1016/800/400',
+      titulo: 'Em Breve Novidades',
+      data: '2023',
+      descricao: '',
+      link:'',
+      imagem: embreve,
     },
     // Adicione mais eventos conforme necessário
   ];

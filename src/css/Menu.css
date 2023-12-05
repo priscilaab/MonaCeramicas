@@ -1,7 +1,7 @@
 .logo {
-    width: 15%;
+    width: 70%;
     height: auto;
-    position: absolute;
+  
     top: 30px;
     left: 30px;
     
@@ -24,6 +24,15 @@
 }
 
 .custom-link:hover {
-    background-color: rgb(1,178,170); 
+    color: rgb(1,178,170); 
 }
+
+.nav{
+    margin-top: 600px;
+}
+
+
+
+
+
 /* const [paginaContato, mudaPagina] = useState(false);*/
