@@ -2,18 +2,24 @@
 
 .carousel-container {
     max-width: 100%;
-    margin-top: 20px; /* Ajuste a margem superior conforme necessário */
+    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
   }
   
   .carousel-item img {
     width: 100%;
+    max-width: 40%;
     height: auto;
+    max-height: 30%;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-left: 330px;
+    margin-top: -10px;
   }
   
   .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(216,184,49, 0.5);
     color: white;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 15px;
   }
   

@@ -1,7 +1,6 @@
 .destaque-container {
     margin-top: 60px;
     justify-self: center;
-   
   }
   
   .destaque-container img {
@@ -10,6 +9,8 @@
   }
   
   .legenda {
-    text-align: center;
+    text-align:center;
+    padding-inline-start: 420px;
+   
     margin-top: 10px;
   }

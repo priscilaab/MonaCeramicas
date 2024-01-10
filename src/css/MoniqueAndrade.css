@@ -7,9 +7,10 @@
   justify-content:center;
   padding-right: 2%;
   padding: 20px;
-  scroll-margin-block: 10%;
-  margin-top: 1cm;
-  
+  scroll-margin-block: 1%;
+  margin-top: 2cm;
+  margin-left: -150px;
+  margin-right: 60px;
 }
 
 .alinhar {
@@ -20,7 +21,7 @@
   width: 100%;
   max-width: 75%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 40px;
   border-radius: 20px;
   object-fit: cover; /* Ajuste conforme necessário */
 }

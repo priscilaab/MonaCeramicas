@@ -8,22 +8,19 @@ import cumbucabranca from '../images/cumbucabrancafrente.png';
 import cumbucadentro from '../images/cumbucadentro.png';
 import cumbucapreta from '../images/cumbucapreta.png';
 import cumbucaverde from '../images/cumbucaverde.png';
-import cumbucapretamarromflor from '../images/cumbucapretamarromflor.png';
+
 
 
 
 function Ceramica() {
   const [fotos] = useState([
-    { src: molheirafolha, alt: 'Molheira Folha', titulo: 'Molheira Folha', legenda: '300Ml, ⌀ 4,5cm'},
-    { src: conjuntomarrom, alt: 'Conjunto Marrom', titulo: 'Conjunto Marrom', legenda: '400ml, ⌀ 5,6cm' },
-    { src: cumbucabranca, alt: 'Cumbuca Branca', titulo: 'Cumbuca Branca', legenda: '500ml, ⌀ 10cm' },
-    { src: cumbucadentro, alt: 'Cumbuca Dentro', titulo: 'Cumbuca Dentro', legenda: '700ml, ⌀ 15cm ' },
-    { src: cumbucapreta, alt: 'Cumbuca Preta', titulo: 'Cumbuca Preta', legenda: '600ml, ⌀ 18cm' },
-    { src: cumbucaverde, alt: 'Cumbuca Verde', titulo: 'Cumbuca Verde', legenda: '200ml ⌀ 20cm' },
-
-
-
-    // Adicione mais fotos conforme necessário
+    { src: molheirafolha, alt: 'Molheira Folha', titulo: 'Molheira Folha', legenda: '100Ml, ⌀ 4,5cm'},
+    { src: conjuntomarrom, alt: 'Conjunto Marrom', titulo: 'Conjunto Marrom', legenda: '150ml, ⌀ 5,6cm' },
+    { src: cumbucabranca, alt: 'Cumbuca Branca', titulo: 'Cumbuca Branca', legenda: '200ml, ⌀ 10cm' },
+    { src: cumbucadentro, alt: 'Cumbuca', titulo: 'Cumbuca', legenda: '230ml, ⌀ 15cm ' },
+    { src: cumbucapreta, alt: 'Cumbuca Preta', titulo: 'Cumbuca Preta', legenda: '250ml, ⌀ 18cm' },
+    { src: cumbucaverde, alt: 'Cumbuca Verde', titulo: 'Cumbuca Verde', legenda: '300ml ⌀ 20cm' },
+// Adicione mais fotos conforme necessário
   ]);
 
   const [fotoDestaque, setFotoDestaque] = useState(null);
@@ -39,18 +36,19 @@ function Ceramica() {
 
   return (
     <Row>
+      <Col className="imagem-container">
+        {/* Visualização em destaque (à esquerda) */}
+        {fotoDestaque && <Destaque foto={fotoDestaque} />}
+      </Col>
       <Col>
-        {/* Álbum (coluna central) */}
-        <Row className="album-container">
+        {/* Álbum (coluna à direita) */}
+        <Row >
           <Album fotos={fotos} onFotoClick={handleFotoClick} />
         </Row>
       </Col>
-      <Col>
-        {/* Visualização em destaque (coluna à direita) */}
-        {fotoDestaque && <Destaque foto={fotoDestaque} />}
-      </Col>
     </Row>
   );
+  
 }
 
 export default Ceramica;

@@ -12,7 +12,7 @@ function Contato() {
           
             <Row className="my-4">
                 <Col>
-                    <h3 className="display-3 text-center py-4">Fale Conosco</h3>
+                    <h5 className="display-3 text-center py-4">Fale Conosco</h5>
                 </Col>
             </Row>
             <Row className="mb-4 mx-3 d-flex justify-content-center" >

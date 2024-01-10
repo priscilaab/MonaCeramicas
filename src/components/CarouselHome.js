@@ -7,26 +7,26 @@ import {
     CarouselCaption,
 } from 'reactstrap';
 import '../css/CarouselHome.css';
-import mesa from '../images/mesamao3.png';
+import mesa from '../images/mesa1.png';
 import uva from '../images/cumbucabrancafrente.png';
 import conjunto from '../images/conjuntomarrom2.png';
 
 
 const items = [
     {
-        src: {mesa} ,
+        src: mesa,
         altText: 'mesa',
         caption: '',
         key: 1,
     },
     {
-        src: {uva},
+        src: uva,
         altText: 'uva',
         caption: '',
         key: 2,
     },
     {
-        src: {conjunto},
+        src: conjunto,
         altText: 'conjunto',
         caption: '',
         key: 3,
@@ -36,6 +36,7 @@ const items = [
 function CarouselHome(args) {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
+    
 
     const next = () => {
         if (animating) return;

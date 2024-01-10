@@ -11,10 +11,10 @@ import embreve from '../images/embreve.png';
 function Eventos() {
   const eventos = [
     {
-      titulo: '1° Feira Vegana -Vivenda Vos',
+      titulo: '1° Feira Vegana - Vivenda Vos',
       data: '2023-03-15', // Use o formato 'YYYY-MM-DD' para datas
       descricao: 'Horário: 09h às 19h  Local:Avenida General Gabriel da Fonseca  Número:369A - Tremembé',
-       link:'',
+      link:'',
       imagem: evento,
     },
     {
@@ -34,7 +34,7 @@ function Eventos() {
     <Container>
       {eventosOrdenados.map((evento, index) => (
         <Row key={index} className="mb-3">
-          <Col>
+          <Col className="text-center">
             <ItemEventos
               evento={{
                 ...evento,
