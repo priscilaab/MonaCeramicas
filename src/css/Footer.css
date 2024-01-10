@@ -4,10 +4,10 @@ footer {
     color: rgb(7, 7, 6);
     padding: 10px;
     text-align: center;
-    position: relative;
+    position: block;
     bottom: 0;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 50px;
   }
   
   /* color verde rgb(48,76,25) amarelo rgb(216,184,49) azul rgb(1,178,170) vermelho rgb(206,60,11) */

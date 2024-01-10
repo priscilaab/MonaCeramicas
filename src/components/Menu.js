@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, NavItem } from 'reactstrap';
-import logo from '../images/logograndebranco.png';
+import logo from '../images/logopngg.png';
 import logoContato from '../images/logopnggdeitado.png';
 import { Link, useLocation } from 'react-router-dom';
 import '../css/Menu.css';
@@ -12,17 +12,14 @@ function Menu() {
     const logoAtual = loc === "/Contato" ? logoContato : logo;
 
     return (
-        <div>
-            <img className="logo" src={logoAtual}
-                alt='Mona Cerâmica logo'
-                style={{
-                    maxWidth: '60%', height: 'auto', margin: '0', alignSelf: 'flex-start', top: '30px',
-                    left: '30px'
-                }} />
+        <nav className="navbar" >
+            
             <Nav vertical>
-                <NavItem>
+                <NavItem className="navbar-expand-lg">
                     <Link to="/"  className="custom-link">
-
+                 <img className="logo" src={logoAtual}
+                alt='Mona Cerâmica logo'/>
+               
                     </Link>
                 </NavItem>
                 <NavItem>
@@ -52,7 +49,7 @@ function Menu() {
                 </NavItem>
 
             </Nav>
-        </div>
+        </nav>
     );
 
 }

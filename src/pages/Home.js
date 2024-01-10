@@ -6,7 +6,7 @@ function Home() {
     return (
       <div className="home-container">
         <Row>
-          <Col xs="12" md="8" lg="6">
+          <Col>{/* xs="12" md="8" lg="6"*/}
             {/* Carousel */}
             <CarouselHome />
           </Col>
