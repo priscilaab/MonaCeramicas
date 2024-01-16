@@ -7,21 +7,21 @@ import {
     CarouselCaption,
 } from 'reactstrap';
 import '../css/CarouselHome.css';
-import mesa from '../images/mesa1.png';
+import cumbuca from '../images/cumbucapreta.png';
 import uva from '../images/cumbucabrancafrente.png';
 import conjunto from '../images/conjuntomarrom2.png';
 
 
 const items = [
     {
-        src: mesa,
-        altText: 'mesa',
+        src: uva,
+        altText: 'uva',
         caption: '',
         key: 1,
     },
     {
-        src: uva,
-        altText: 'uva',
+        src: cumbuca,
+        altText: 'cumbuca',
         caption: '',
         key: 2,
     },

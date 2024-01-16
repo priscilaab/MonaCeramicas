@@ -2,7 +2,7 @@
 
 .carousel-container {
     max-width: 100%;
-    margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+    margin-top: 10px; 
   }
   
   .carousel-item img {
@@ -12,7 +12,7 @@
     max-height: 30%;
     border-radius: 20px;
     object-fit: cover;
-    margin-left: 330px;
+    margin-left: 317px;
     margin-top: -10px;
   }
   
