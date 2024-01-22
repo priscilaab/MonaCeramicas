@@ -6,38 +6,46 @@ body {
 .logo {
     width: 100%;
     height: auto;
- }
+}
 
 .logoContato {
-    width: 100%;
-    height: auto;
+    width: 130%;
+    height: 200px;
+    margin-top: -100%;
+    margin-right: 100%; /* Ajuste a margem direita conforme necessário */
+    margin-left: 100%; /* Ajuste a margem direita conforme necessário */
 }
+
 
 /* color verde rgb(48,76,25) amarelo rgb(216,184,49) azul rgb(1,178,170) vermelho rgb(206,60,11) */
 .custom-link {
-    color: rgb(206,60,11) ; 
-    padding: 0px;  
-    text-decoration: none; 
+    color: rgb(206, 60, 11);
+    padding: 0px;
+    text-decoration: none;
 }
 
 .custom-link:hover {
-    color: rgb(48,76,25); 
+    color: rgb(48, 76, 25);
 }
 
-.nav{
+.nav {
     margin-top: 0px;
 }
+
 .navbar {
     margin-top: 0px;
 }
+
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh; /* 100% da altura da viewport */
+    height: 100vh;
+    /* 100% da altura da viewport */
     width: 15%;
     padding: 2%;
-    z-index: 1000; /*Garante que o navbar esteja acima de outros elementos na página */
+    z-index: 1000;
+    /*Garante que o navbar esteja acima de outros elementos na página */
 }
 
 

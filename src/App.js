@@ -23,7 +23,7 @@ function App() {
           </Col>
           <Col>
             <Row>
-              {/* Conteúdo */}
+              {/* Conteudo */}
               <Col>
                 {/* Rotas do site */}
                 <Routes>
@@ -41,7 +41,7 @@ function App() {
         </Row>
       </BrowserRouter>
       <Row>
-        {/* Rodapé */}
+        {/* Rodape */}
         <FooterS />
       </Row>
     </Container >

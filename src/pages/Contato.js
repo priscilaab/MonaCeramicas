@@ -2,6 +2,9 @@ import { Col, Row, Button } from "reactstrap";
 import ItemForm from "../components/ItemForm";
 import React from 'react';
 import '../css/Contato.css';
+import { BsInstagram, BsWhatsapp } from 'react-icons/bs'; // Importa os ícones do Bootstrap
+
+
 
 
 
@@ -23,6 +26,15 @@ function Contato() {
                     <ItemForm label="Assunto" name="assunto" type="text" ph="Informe o assunto da mensagem" />
                     <ItemForm label="Mensagem" name="mensagem" type="text" ph="Digite a mensagem a ser encaminhada para nossa equipe" />
                     <Button className="button" block>Enviar</Button>
+                      {/* Redes Sociais */}
+                    <div className="d-flex justify-content-center mt-4">
+                        <a href="https://www.instagram.com/seuusuario/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mr-2" >
+                            <BsInstagram /> 
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=123456789&text=Olá! Estou entrando em contato." target="_blank" rel="noopener noreferrer" className="btn btn-outline-success">
+                            <BsWhatsapp /> 
+                        </a>
+                    </div>
                 </Col>
                 
             </Row>

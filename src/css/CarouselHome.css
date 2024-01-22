@@ -1,25 +1,27 @@
-
-
 .carousel-container {
-    max-width: 100%;
-    margin-top: 10px; 
-  }
-  
-  .carousel-item img {
-    width: 100%;
-    max-width: 40%;
-    height: auto;
-    max-height: 30%;
-    border-radius: 20px;
-    object-fit: cover;
-    margin-left: 317px;
-    margin-top: -10px;
-  }
-  
-  .carousel-caption {
-    background-color: rgba(216,184,49, 0.5);
-    color: white;
-    padding: 10px;
-    border-radius: 15px;
-  }
-  
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-width: 40%;
+  height: auto;
+  max-height: 30%;
+  border-radius: 20px;
+  object-fit: cover;
+  margin-left: 417px;
+  margin-top: 50px;
+}
+
+.carousel-caption {
+  background-color: rgba(216, 184, 49, 0.5);
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  max-width: 350px;
+  margin-left: 330px;
+}
+.carousel-indicators{
+  margin-left: 160px;
+}
