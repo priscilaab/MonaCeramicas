@@ -40,7 +40,7 @@ function Ceramica() {
         {/* Visualização em destaque (à esquerda) */}
         {fotoDestaque && <Destaque foto={fotoDestaque} />}
       </Col>
-      <Col>
+      <Col md="3">
         {/* Álbum (coluna à direita) */}
         <Row >
           <Album fotos={fotos} onFotoClick={handleFotoClick} />

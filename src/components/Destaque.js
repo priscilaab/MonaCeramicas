@@ -3,7 +3,7 @@ import '../css/Destaque.css';
 
 function Destaque({ foto }) {
   return (
-    <div className="destaque-container">
+    <div className="destaque-container d-none d-md-block">
       <img src={foto.src} alt={foto.alt} className="img-fluid" />
       <div className="legenda">
         <h3>{foto.titulo}</h3>

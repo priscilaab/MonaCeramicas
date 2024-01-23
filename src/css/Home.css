@@ -1,7 +1,6 @@
 
 
 .home-container {
-    padding: 20px; /* Ajuste o preenchimento conforme necessário */
-    display: block;
-  }
-  
+    padding: 100px; /* Ajuste o preenchimento conforme necessário */
+    justify-content:center;
+}  

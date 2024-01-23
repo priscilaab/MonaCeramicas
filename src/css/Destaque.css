@@ -1,16 +1,20 @@
 .destaque-container {
-    margin-top: 60px;
-    justify-self: center;
-  }
-  
-  .destaque-container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .legenda {
-    text-align:center;
-    padding-inline-start: 420px;
-   
-    margin-top: 10px;
-  }
+  margin-top: 80px;
+  text-align: center;
+
+}
+
+.destaque-container img {
+  width: 50%;
+  max-width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 200px;
+
+}
+
+.legenda {
+  text-align: center;
+  margin-top: 10px;
+}

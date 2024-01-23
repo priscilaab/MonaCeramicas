@@ -27,14 +27,14 @@ function Contato() {
                     <ItemForm label="Mensagem" name="mensagem" type="text" ph="Digite a mensagem a ser encaminhada para nossa equipe" />
                     <Button className="button" block>Enviar</Button>
                       {/* Redes Sociais */}
-                    <div className="d-flex justify-content-center mt-4">
-                        <a href="https://www.instagram.com/seuusuario/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mr-2" >
-                            <BsInstagram /> 
-                        </a>
-                        <a href="https://api.whatsapp.com/send?phone=123456789&text=Olá! Estou entrando em contato." target="_blank" rel="noopener noreferrer" className="btn btn-outline-success">
-                            <BsWhatsapp /> 
-                        </a>
-                    </div>
+                      <div className="d-flex justify-content-center mt-4" style={{ padding: '0 10px' }}>
+    <a href="https://www.instagram.com/seuusuario/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary">
+        <BsInstagram /> 
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=123456789&text=Olá! Estou entrando em contato." target="_blank" rel="noopener noreferrer" className="btn btn-outline-success ms-3">
+        <BsWhatsapp /> 
+    </a>
+</div>
                 </Col>
                 
             </Row>

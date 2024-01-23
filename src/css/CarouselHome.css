@@ -10,7 +10,9 @@
   max-height: 30%;
   border-radius: 20px;
   object-fit: cover;
-  margin-left: 417px;
+ 
+  margin: auto;
+  display: block;
   margin-top: 50px;
 }
 
@@ -19,9 +21,7 @@
   color: white;
   padding: 10px;
   border-radius: 15px;
-  max-width: 350px;
-  margin-left: 330px;
-}
-.carousel-indicators{
-  margin-left: 160px;
+  max-width: 350px;  /*tamanho de legenda */
+  margin: auto;
+  
 }

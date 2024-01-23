@@ -34,16 +34,17 @@ function App() {
                   <Route path="/Contato" element={<Contato />} />
                   <Route path="/Loja" element={<Loja />} />
                 </Routes>
+                <Row>
+        {/* Rodape */}
+        <FooterS />
+      </Row>
               </Col>
             </Row>
 
           </Col>
         </Row>
       </BrowserRouter>
-      <Row>
-        {/* Rodape */}
-        <FooterS />
-      </Row>
+     
     </Container >
   );
 }

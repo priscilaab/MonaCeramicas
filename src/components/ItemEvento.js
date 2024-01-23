@@ -5,7 +5,7 @@ import '../css/Evento.css';
 const ItemEvento = ({ evento }) => {
   return (
     <Card className="evento-card">
-      <CardImg width="20%" src={evento.imagem} alt={evento.titulo} />
+      <CardImg  src={evento.imagem} alt={evento.titulo} />
       <CardBody className='text-center'>
         <CardTitle>{evento.titulo}</CardTitle>
         <CardSubtitle>{evento.data}</CardSubtitle>

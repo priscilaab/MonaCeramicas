@@ -1,17 +1,12 @@
 
 footer {
     color: rgb(7, 7, 6);
-    padding: 10px;
+    padding: 50px;
     text-align: center;
     position: flexbox;
     bottom: 0;
     width: 100%;
    }
-   footer p {
-    margin-right: -250px; /* Ajuste o valor conforme necessário */
-    margin-top: 150px;
-  }
   
-
   
   /* color verde rgb(48,76,25) amarelo rgb(216,184,49) azul rgb(1,178,170) vermelho rgb(206,60,11) */
