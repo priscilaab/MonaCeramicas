@@ -28,10 +28,10 @@ function Contato() {
                     <Button className="button" block>Enviar</Button>
                       {/* Redes Sociais */}
                       <div className="d-flex justify-content-center mt-4" style={{ padding: '0 10px' }}>
-    <a href="https://www.instagram.com/seuusuario/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary">
+    <a href="https://www.instagram.com/monaceramista?igsh=MTMOd2oemh1eHMxYQ==/" target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary">
         <BsInstagram /> 
     </a>
-    <a href="https://api.whatsapp.com/send?phone=123456789&text=Olá! Estou entrando em contato." target="_blank" rel="noopener noreferrer" className="btn btn-outline-success ms-3">
+    <a href="https://api.whatsapp.com/send?phone=+5512996327147&text=Olá! Estou entrando em contato." target="_blank" rel="noopener noreferrer" className="btn btn-outline-success ms-3">
         <BsWhatsapp /> 
     </a>
 </div>

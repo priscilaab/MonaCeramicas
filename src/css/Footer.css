@@ -1,12 +1,19 @@
-
-footer {
-    color: rgb(7, 7, 6);
-    padding: 50px;
-    text-align: center;
-    position: flexbox;
+ /* footer { 
+    position: absolute;
     bottom: 0;
-    width: 100%;
-   }
-  
+    background-color: white;
+    color: black;
+    word-wrap: break-word;
+    width: auto;
+    height: auto;    
+    text-align: center;
+    line-height: auto;
+    overflow: hidden;
+ } */
+   
+  footer p{
+    margin-bottom: 5px;
+    text-align: center;
+  }
   
   /* color verde rgb(48,76,25) amarelo rgb(216,184,49) azul rgb(1,178,170) vermelho rgb(206,60,11) */

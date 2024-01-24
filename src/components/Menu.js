@@ -1,4 +1,4 @@
-import React,  { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Nav, NavItem } from 'reactstrap';
 import logo from '../images/logopngg.png';
 import logoContato from '../images/logopnggdeitado.png';
@@ -35,42 +35,42 @@ function Menu() {
         }
     }, [loc]);
 
-     const logoAtual = loc === "/Contato" ? logoContato : logo;
+    const logoAtual = loc === "/Contato" ? logoContato : logo;
 
     return (
         <nav className="navbar" style={{ backgroundColor: menuColor }} >
-            
+
             <Nav vertical>
                 <NavItem className="navbar-expand-lg">
-                    <Link to="/"  className="custom-link">
-                 <img className="logo" src={logoAtual}
-                alt='Mona Cerâmica logo'/>
-               
+                    <Link to="/" className="custom-link">
+                        <img className="logo" src={logoAtual}
+                            alt='Mona Cerâmica logo' />
+
                     </Link>
                 </NavItem>
                 <NavItem>
-                    <Link to="/MoniqueAndrade"  className="custom-link">
+                    <Link to="/MoniqueAndrade" className="custom-link">
                         Monique Andrade
                     </Link>
                 </NavItem>
                 <NavItem>
-                    <Link to="/Ceramica"  className="custom-link">
+                    <Link to="/Ceramica" className="custom-link">
                         Cerâmica
                     </Link>
                 </NavItem>
                 <NavItem>
-                    <Link to="/Evento"  className="custom-link">
+                    <Link to="/Evento" className="custom-link">
                         Evento
                     </Link>
                 </NavItem>
                 <NavItem>
-                    <Link to="/Contato"  className="custom-link" >
-                        Contato
-                    </Link>
+                    <a href={"https://monaceramicas.priscilabcm.sen1.one/loja/"} target="_blank" className="custom-link">
+                        Loja
+                    </a>
                 </NavItem>
                 <NavItem>
-                    <Link to="/Loja"  className="custom-link">
-                        Loja
+                    <Link to="/Contato" className="custom-link" >
+                        Contato
                     </Link>
                 </NavItem>
 

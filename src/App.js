@@ -26,25 +26,27 @@ function App() {
               {/* Conteudo */}
               <Col>
                 {/* Rotas do site */}
+                <div className="conteudo"> 
                 <Routes>
                   <Route exact path="/" element={<Home />} />
                   <Route path="/MoniqueAndrade" element={<MoniqueAndrade />} />
                   <Route path="/Ceramica" element={<Ceramica />} />
                   <Route path="/Evento" element={<Evento />} />
-                  <Route path="/Contato" element={<Contato />} />
                   <Route path="/Loja" element={<Loja />} />
+                  <Route path="/Contato" element={<Contato />} />
                 </Routes>
+                </div>
                 <Row>
-        {/* Rodape */}
-        <FooterS />
-      </Row>
+                  {/* Rodape */}
+                  <FooterS />
+                </Row>
               </Col>
             </Row>
 
           </Col>
         </Row>
       </BrowserRouter>
-     
+
     </Container >
   );
 }

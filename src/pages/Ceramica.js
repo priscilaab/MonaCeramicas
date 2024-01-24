@@ -14,12 +14,12 @@ import cumbucaverde from '../images/cumbucaverde.png';
 
 function Ceramica() {
   const [fotos] = useState([
-    { src: molheirafolha, alt: 'Molheira Folha', titulo: 'Molheira Folha', legenda: '100Ml, ⌀ 4,5cm'},
-    { src: conjuntomarrom, alt: 'Conjunto Marrom', titulo: 'Conjunto Marrom', legenda: '150ml, ⌀ 5,6cm' },
-    { src: cumbucabranca, alt: 'Cumbuca Branca', titulo: 'Cumbuca Branca', legenda: '200ml, ⌀ 10cm' },
-    { src: cumbucadentro, alt: 'Cumbuca', titulo: 'Cumbuca', legenda: '230ml, ⌀ 15cm ' },
-    { src: cumbucapreta, alt: 'Cumbuca Preta', titulo: 'Cumbuca Preta', legenda: '250ml, ⌀ 18cm' },
-    { src: cumbucaverde, alt: 'Cumbuca Verde', titulo: 'Cumbuca Verde', legenda: '300ml ⌀ 20cm' },
+    { src: molheirafolha, alt: 'Molheira Folha', titulo: 'Molheira Folha', legenda: ''},
+    { src: conjuntomarrom, alt: 'Conjunto Marrom', titulo: 'Mocha Set', legenda: '' },
+    { src: cumbucabranca, alt: 'Cumbuca Branca', titulo: 'Cumbuca Rústica', legenda: '' },
+    { src: cumbucadentro, alt: 'Cumbuca', titulo: 'Cumbuca Rústica', legenda: '' },
+    { src: cumbucapreta, alt: 'Cumbuca Preta', titulo: 'Cumbuca Utilitária Espiral', legenda: '345ml, ⌀ 16cm' },
+    { src: cumbucaverde, alt: 'Cumbuca Verde', titulo: 'Pires Utilitário Orgânico', legenda: 'P ⌀ 8,5cm, M ⌀ 12,5cm' },
 // Adicione mais fotos conforme necessário
   ]);
 

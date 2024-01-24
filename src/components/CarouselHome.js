@@ -16,19 +16,19 @@ const items = [
     {
         src: uva,
         altText: 'uva',
-        caption: '',
+        caption: 'Cumbuca Rústica',
         key: 1,
     },
     {
         src: cumbuca,
         altText: 'cumbuca',
-        caption: '',
+        caption: 'Cumbuca Utilitária Espiral',
         key: 2,
     },
     {
         src: conjunto,
         altText: 'conjunto',
-        caption: '',
+        caption: 'Mocha Set',
         key: 3,
     },
 ];
