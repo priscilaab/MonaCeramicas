@@ -41,11 +41,9 @@ body {
     top: 0;
     left: 0;
     height: 100vh;
-    /* 100% da altura da viewport */
     width: 15%;
     padding: 2%;
-    z-index: 1000;
-    /*Garante que o navbar esteja acima de outros elementos na página */
+    z-index: 1000; /*Garante que o navbar esteja acima de outros elementos na página */
 }
 
 
@@ -53,4 +51,3 @@ body {
 
 
 
-/* const [paginaContato, mudaPagina] = useState(false);*/
