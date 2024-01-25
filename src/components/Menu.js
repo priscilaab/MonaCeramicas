@@ -64,7 +64,7 @@ function Menu() {
                     </Link>
                 </NavItem>
                 <NavItem>
-                    <a href={"https://monaceramicas.priscilabcm.sen1.one/loja/"} target="_blank" className="custom-link">
+                    <a href={"http://loja.monaceramicas.priscilabcm.sen1.one/loja/"} target="_blank" className="custom-link">
                         Loja
                     </a>
                 </NavItem>
