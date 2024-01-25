@@ -9,7 +9,6 @@
   padding: 20px;
   scroll-margin-block: 1%;
   margin-top: 2cm;
-  /* margin-right: 60px; */
 }
 
 .alinhar {
@@ -22,7 +21,7 @@
   height: auto;
   margin-top: 40px;
   border-radius: 20px;
-  object-fit: cover; /* Ajuste conforme necessário */
+  object-fit: cover; 
 }
 
 .espaco-texto{

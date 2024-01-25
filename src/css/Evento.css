@@ -1,5 +1,4 @@
 .card {
- 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-top: 60px;
 }
@@ -27,7 +26,6 @@
 
 .card-subtitle {
   color: #777;
-
 }
 
 .card-text {
