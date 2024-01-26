@@ -37,6 +37,7 @@ function Menu() {
 
     const logoAtual = loc === "/Contato" ? logoContato : logo;
 
+    
     return (
         <nav className="navbar" style={{ backgroundColor: menuColor }} >
 
@@ -48,7 +49,7 @@ function Menu() {
 
                     </Link>
                 </NavItem>
-                <NavItem>
+                <NavItem >
                     <Link to="/MoniqueAndrade" className="custom-link">
                         Monique Andrade
                     </Link>
@@ -73,10 +74,13 @@ function Menu() {
                         Contato
                     </Link>
                 </NavItem>
-
+                <NavItem >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </NavItem>
             </Nav>
         </nav>
     );
-
 }
 export default Menu;
